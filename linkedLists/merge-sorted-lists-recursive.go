@@ -1,6 +1,6 @@
-package main
+package linkedlists
 
-func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
+func mergeTwoListsRecursive(list1 *ListNode, list2 *ListNode) *ListNode {
 	if list1 == nil {
 		return list2
 	} else if list2 == nil {

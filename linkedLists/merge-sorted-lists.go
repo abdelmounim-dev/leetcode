@@ -1,17 +1,4 @@
-package main
-
-/**
- * LeetCode doesnot support adding methods to a precompiled struct
- */
-
-/**
- * Definition for singly-linked list.
- */
-
-//	type ListNode struct {
-//		Val  int
-//		Next *ListNode
-//	}
+package linkedlists
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	mergedList := &ListNode{}

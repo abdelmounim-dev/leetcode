@@ -1,9 +1,4 @@
-package main
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+package linkedlists
 
 func hasCycle(head *ListNode) bool {
 	if head == nil {
